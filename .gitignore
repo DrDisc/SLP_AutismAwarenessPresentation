@@ -1,1 +1,35 @@
 *.html
+
+# Development & Technical Files (not for client distribution)
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.coverage
+*.json
+
+# Technical agents & scripts (use for development only)
+media_gathering_agent.py
+media_validator.py
+*_scraper.py
+*_downloader.py
+*_retrieval.py
+
+# Configuration files
+agent_configs/
+.agent-config*.json
+
+# Test infrastructure
+tests/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
