@@ -6,6 +6,8 @@
 
 ### Who Are We?
 
+![SLP working with child in classroom](./media/handout_1_slp_info/1_kids_with_teacher.jpg)
+
 Speech-Language Pathologists (SLPs) are healthcare professionals who specialize in:
 - **Communication** (speaking, understanding, and social interaction)
 - **Language development** (words, sentences, and conversation)
@@ -33,6 +35,8 @@ To become an SLP in Ontario, professionals must complete:
 
 ### How SLPs Help Children with Autism
 
+![Children learning together in classroom](./media/handout_1_slp_info/1_kids_classroom_activity.jpg)
+
 **Communication Development:**
 - Building vocabulary and language skills
 - Improving understanding of language
@@ -44,6 +48,8 @@ To become an SLP in Ontario, professionals must complete:
 - Taking turns in conversation
 - Making and keeping friends
 - Understanding emotions and perspectives
+
+![Children playing and learning together](./media/handout_1_slp_info/1_children_playing_learning.jpg)
 
 **Alternative & Augmentative Communication (AAC):**
 - Picture communication systems
@@ -60,6 +66,8 @@ To become an SLP in Ontario, professionals must complete:
 ---
 
 ### What Makes SLP Services Unique?
+
+![Children learning together collaboratively](./media/handout_1_slp_info/1_children_learning_together.jpg)
 
 **✓ Evidence-Based Practice**
 - We use approaches backed by research
@@ -122,6 +130,8 @@ To become an SLP in Ontario, professionals must complete:
 ---
 
 ### What to Expect from SLP Services
+
+![Children in classroom learning activity](./media/handout_1_slp_info/1_children_together_learning.jpg)
 
 **Assessment (1-3 sessions):**
 - Observation of your child's communication

@@ -5,6 +5,8 @@
 
 ## You Are Your Child's First and Best Teacher!
 
+![Children playing and interacting with toys](./media/handout_2_communication_strategies/2_children_playing_toys.jpg)
+
 Communication happens all day, every day—not just during therapy sessions. These strategies will help you create more opportunities for your child to communicate throughout daily routines.
 
 ---
@@ -12,6 +14,8 @@ Communication happens all day, every day—not just during therapy sessions. The
 ## 1. Get Down to Their Level 👁️
 
 **What:** Position yourself at your child's eye level during interactions.
+
+![Children interacting with teacher at their level](./media/handout_2_communication_strategies/2_children_teacher_interaction.jpg)
 
 **Why:** It's easier for your child to see your face, read your expressions, and feel less intimidated.
 
@@ -152,6 +156,8 @@ Instead of: "Where is daddy?" → Say: "Daddy's at work!"
 
 **What:** Respond to every communication attempt, whether it's words, sounds, gestures, or eye contact.
 
+![Happy children playing together in group activity](./media/handout_2_communication_strategies/2_happy_kids_playing.jpg)
+
 **Why:** Builds confidence and encourages more communication attempts.
 
 **How:**
@@ -171,6 +177,8 @@ You: "Oh! You want something! What do you see? The ball! Here's the ball!"
 ## 10. Create Routines and Rituals 🔄
 
 **What:** Predictable activities that happen the same way each time.
+
+![Kids engaged in group activity together](./media/handout_2_communication_strategies/2_kids_group_activity.jpg)
 
 **Why:** Routines help children know what to expect and what language to anticipate. Familiarity reduces anxiety.
 
