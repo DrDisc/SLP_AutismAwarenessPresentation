@@ -1,8 +1,6 @@
 # Ontario Resources for Families
 ## Supporting Your Child with Autism - Where to Find Help
 
-![Children learning together in supportive environment](./media/handout_3_ontario_resources/3_children_learning_classroom.jpg)
-
 ---
 
 ## Government-Funded Programs & Services
@@ -127,8 +125,6 @@
 ---
 
 ## Autism Organizations & Support
-
-![Children with adult support in collaborative setting](./media/handout_3_ontario_resources/3_children_with_adult_support.jpg)
 
 ### Autism Ontario
 **Services:**
@@ -255,8 +251,6 @@ Many private health insurance plans cover speech-language pathology services.
 
 ## Parent Training Programs
 
-![Happy kids engaged in collaborative learning](./media/handout_3_ontario_resources/3_kids_happy_learning.jpg)
-
 ### The Hanen Centre
 **Programs:**
 - "It Takes Two to Talk" (speech delays)
@@ -321,8 +315,6 @@ Find certified Hanen SLPs in Ontario
 ---
 
 ## Support Groups & Community
-
-![Children collaborating and playing together](./media/handout_3_ontario_resources/3_children_collaborative_play.jpg)
 
 ### Parent Support Groups
 **Find Groups Through:**
