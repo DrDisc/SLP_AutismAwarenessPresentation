@@ -1,0 +1,89 @@
+{
+  "_comment": "Media Gathering Agent Configuration - Quality Optimized",
+  "_usage": "Use this config when maximum image quality/resolution is critical",
+  "_use_case": "High-resolution presentations, print materials, professional outputs",
+  
+  "search": {
+    "max_search_queries": 5,
+    "results_per_source": 10,
+    "_comment": "More results per source to find highest quality images"
+  },
+  
+  "scoring": {
+    "min_final_score": 65.0,
+    "_comment": "HIGH threshold - only top quality images pass",
+    
+    "style_confidence_weight": 0.15,
+    "_comment": "Lower style weight - quality is more important",
+    
+    "quality_weight": 0.6,
+    "_comment": "VERY HIGH weight for quality metrics",
+    
+    "relevance_weight": 0.5,
+    
+    "base_quality_score": 80.0,
+    "_comment": "Higher base quality score",
+    
+    "base_relevance_score": 50.0,
+    "base_style_confidence": 0.5
+  },
+  
+  "quality_bonuses": {
+    "quality_bonus_fhd": 20.0,
+    "_comment": "Substantial bonus for FHD+ resolution",
+    
+    "quality_bonus_hd": 12.0,
+    "_comment": "Good bonus for HD resolution",
+    
+    "quality_bonus_cc0": 15.0,
+    "_comment": "High bonus for most permissive licensing",
+    
+    "quality_bonus_free": 8.0
+  },
+  
+  "relevance": {
+    "keyword_match_weight": 35.0,
+    "_comment": "Lower keyword weight - quality matters more"
+  },
+  
+  "style_validation": {
+    "cartoon": {
+      "positive": [
+        "cartoon", "illustration", "animated", "illustrated", "comic",
+        "drawing", "vector", "art", "sketch", "hand-drawn", "cute",
+        "stylized", "graphic", "design", "artwork", "painter"
+      ],
+      "negative": [
+        "photo", "photograph", "real", "stock photo", "candid",
+        "camera", "photographer", "realistic"
+      ]
+    },
+    "photo": {
+      "positive": [
+        "photo", "photograph", "real", "stock photo", "professional"
+      ],
+      "negative": [
+        "cartoon", "illustration", "animated", "drawn", "vector"
+      ]
+    }
+  },
+  
+  "timeouts": {
+    "api_timeout": 5,
+    "download_timeout": 15,
+    "_comment": "Slightly longer timeout for large files"
+  },
+  
+  "retry": {
+    "max_retries": 4,
+    "_comment": "More retries for quality assurance",
+    
+    "retry_delay_base": 1.5,
+    "_comment": "Longer backoff delay"
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  }
+}

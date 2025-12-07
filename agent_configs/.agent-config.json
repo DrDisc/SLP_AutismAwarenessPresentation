@@ -1,0 +1,118 @@
+{
+  "_comment": "Media Gathering Agent Configuration - Default Balanced Settings",
+  "_usage": "Copy to .agent-config.json in project root and modify as needed",
+  "_version": "1.0",
+  
+  "search": {
+    "max_search_queries": 5,
+    "_comment_max_search_queries": "Maximum number of search query variations to generate (reduces API calls if lowered)",
+    
+    "results_per_source": 5,
+    "_comment_results_per_source": "Number of results to request from each API source (5-20 recommended)"
+  },
+  
+  "scoring": {
+    "min_final_score": 50.0,
+    "_comment_min_final_score": "Minimum final score to accept a media asset (0-100 scale). Higher = stricter quality gate",
+    
+    "style_confidence_weight": 0.2,
+    "_comment_style_confidence_weight": "Weight for style confidence in final score (0.0-1.0). Higher = style matching more important",
+    
+    "quality_weight": 0.4,
+    "_comment_quality_weight": "Weight for quality in final score calculation (0.0-1.0)",
+    
+    "relevance_weight": 0.6,
+    "_comment_relevance_weight": "Weight for relevance in final score calculation (0.0-1.0)",
+    
+    "base_quality_score": 75.0,
+    "_comment_base_quality_score": "Starting quality score before bonuses (0-100)",
+    
+    "base_relevance_score": 50.0,
+    "_comment_base_relevance_score": "Starting relevance score before keyword matches (0-100)",
+    
+    "base_style_confidence": 0.5,
+    "_comment_base_style_confidence": "Starting style confidence score when no style constraint (0.0-1.0)"
+  },
+  
+  "quality_bonuses": {
+    "quality_bonus_fhd": 15.0,
+    "_comment_quality_bonus_fhd": "Bonus points for FHD resolution (1920×1080+)",
+    
+    "quality_bonus_hd": 10.0,
+    "_comment_quality_bonus_hd": "Bonus points for HD resolution (1280×720+)",
+    
+    "quality_bonus_cc0": 10.0,
+    "_comment_quality_bonus_cc0": "Bonus points for CC0 license (most permissive)",
+    
+    "quality_bonus_free": 5.0,
+    "_comment_quality_bonus_free": "Bonus points for free/commercial license"
+  },
+  
+  "relevance": {
+    "keyword_match_weight": 40.0,
+    "_comment_keyword_match_weight": "Maximum points awarded for keyword matching (out of base relevance score)"
+  },
+  
+  "style_validation": {
+    "_comment_styles": "Style keywords for confidence-based validation. Add more styles as needed.",
+    
+    "cartoon": {
+      "positive": [
+        "cartoon", "illustration", "animated", "illustrated", "comic",
+        "drawing", "vector", "art", "sketch", "hand-drawn", "cute",
+        "stylized", "graphic", "design", "artwork", "painter"
+      ],
+      "_comment_positive": "Keywords that increase confidence this is the desired style",
+      
+      "negative": [
+        "photo", "photograph", "real", "stock photo", "people", "person",
+        "portrait", "candid", "camera", "photographer", "realistic"
+      ],
+      "_comment_negative": "Keywords that reduce confidence (indicates wrong style)"
+    },
+    
+    "photo": {
+      "positive": [
+        "photo", "photograph", "real", "stock photo", "professional",
+        "portrait", "landscape", "scene", "candid", "photography"
+      ],
+      "negative": [
+        "cartoon", "illustration", "animated", "drawn", "vector", "sketch"
+      ]
+    },
+    
+    "watercolor": {
+      "positive": [
+        "watercolor", "watercolour", "painting", "artistic", "brush",
+        "painted", "ink", "wash", "watercolor painting", "medium"
+      ],
+      "negative": [
+        "photo", "photograph", "vector", "digital", "realistic"
+      ]
+    }
+  },
+  
+  "timeouts": {
+    "api_timeout": 5,
+    "_comment_api_timeout": "Seconds to wait for API responses (recommend 5-10)",
+    
+    "download_timeout": 10,
+    "_comment_download_timeout": "Seconds to wait for file downloads (recommend 10-30)"
+  },
+  
+  "retry": {
+    "max_retries": 3,
+    "_comment_max_retries": "Number of retry attempts for failed API calls and downloads",
+    
+    "retry_delay_base": 1.0,
+    "_comment_retry_delay_base": "Base delay for exponential backoff (seconds). Attempts: 1s, 2s, 4s, etc."
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "_comment_level": "Log level: DEBUG (verbose), INFO (normal), WARNING (errors only), ERROR (critical only)",
+    
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "_comment_format": "Python logging format string"
+  }
+}
